@@ -4,7 +4,7 @@ import NextHead from "../head/Head";
 
 export default function Layout({ children }) {
 	return (
-		<>
+		<main className="px-100 bg-darkblue">
 			<NextHead
 				title="Sander's Portfolio"
 				description='My personal portfolio as a Front End Developer'
@@ -18,6 +18,6 @@ export default function Layout({ children }) {
 					<BgAnimation />
 				</div>
 			</div>
-		</>
+		</main>
 	);
 }

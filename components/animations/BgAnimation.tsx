@@ -3,7 +3,7 @@ import triangle from "../../public/images/triangle.svg";
 
 export default function BgAnimation() {
 	return (
-		<div className='svg-area z-0' aria-hidden='true'>
+		<div className='svg-area h-full z-0' aria-hidden='true'>
 			<img
 				src={oval}
 				alt='1'
