@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 @import url("https://use.typekit.net/tur6gdw.css");
+@import "./animation.module.css";
 
 a {
 	color: inherit;
@@ -13,4 +14,5 @@ a {
 	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
+	font-family: hack, monospace;
 }
