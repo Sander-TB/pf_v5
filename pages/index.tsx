@@ -5,10 +5,13 @@ import Portfolio from "../components/portfolio/Portfolio"
 import About from "../components/about/About";
 import Home from "../components/home/Home";
 
+import Banner from "../components/banner/Banner";
+
 
 export default function App() {
   return (
     <>
+      <Banner />
       <Layout>
         <section id="home">
           <Home />
