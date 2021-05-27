@@ -13,12 +13,14 @@ module.exports = {
 			bluegray: "#7f8da8",
 			darkblue: "#3b4252",
 			black: "#2e3440",
+			lightgray: "#D8DEE9",
 			"black-t-90": "rgba(46, 52, 64, 0.95)",
 			"black-t-70": "rgba(46, 52, 64, 0.7)",
 		},
 		extend: {
 			spacing: {
 				"90": "90%",
+				"82": "82%",
 				"100": "100px",
 				"15": "3.75rem",
 				"50ch": "50ch",
