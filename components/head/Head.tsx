@@ -1,11 +1,14 @@
 import Head from "next/head";
 
 export default function NextHead({ title, description, author, keywords }) {
+
 	return (
 		<Head>
 			<title>{title}</title>
+			{/* 
 			<meta name='description' description={description} />
 			<meta name='author' author={author} />
+			*/}
 			<meta name='keywords' content={keywords} />
 
 			<link
