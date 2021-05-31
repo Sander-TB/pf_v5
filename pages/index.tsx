@@ -4,7 +4,6 @@ import Blog from "../components/blog/Blog"
 import Portfolio from "../components/portfolio/Portfolio"
 import About from "../components/about/About";
 import Home from "../components/home/Home";
-
 import Banner from "../components/banner/Banner";
 
 

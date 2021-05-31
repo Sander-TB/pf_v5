@@ -1,6 +1,8 @@
 import Link from "next/link"
 
 export default function Blog() {
+
+  //const url = "https://api.github.com/repos/sander-tb/posts"
   return (
     <div className="h-auto mb-10">
       <h2 className="font-sans text-20xl ml-20 font-medium text-black-t-90">Blog</h2>
