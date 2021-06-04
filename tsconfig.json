@@ -19,7 +19,8 @@
 		"**/*.ts",
 		"**/*.tsx",
 		"pages/_app.js",
-		"next.config.js"
+		"next.config.js",
+		"components/portfolio/pfData.js"
 	],
 	"exclude": ["node_modules"]
 }
