@@ -60,7 +60,7 @@ export default function Nav() {
     <nav className='bg-darkblue'>
       <div className='flex justify-end items-center'>
         <button
-          className='text-right text-3xl md:hidden text-orange z-50 mr-10 mt-10'
+          className='text-right text-3xl md:hidden text-orange z-50 mr-5 mt-10'
           onClick={() => setShowMenu(!showMenu)}>
 
           {showMenu ? <GiHamburger /> : <FaHamburger />}
