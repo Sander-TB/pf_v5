@@ -17,9 +17,7 @@ export default function Home() {
         duration={500}
         className="cursor-pointer self-center mt-52 z-40"
       >
-        <a>
-          <HiArrowDown className="text-4xl text-white animate-bounce" />
-        </a>
+        <HiArrowDown className="text-4xl text-white animate-bounce" />
       </Link>
     </div>
   )

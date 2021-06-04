@@ -1,9 +1,8 @@
 import Link from "next/link"
 import { blogPosts } from "../../lib/data"
+import { format, parseISO, add } from "date-fns"
 
 export default function Blog() {
-
-  console.log(blogPosts);
 
 
   //const url = "https://api.github.com/repos/sander-tb/posts"
@@ -15,7 +14,7 @@ export default function Blog() {
           blogPosts.map((post) => (
             <div key={post.slug}>
               <h4 className="text-5xl font-medium text-orange font-sans tracking-wider">{post.title}</h4>
-              <p className="text-3xl text-bluegray pt-2 mb-7">{post.date}</p>
+              <p className="text-3xl text-bluegray pt-2 mb-7">{format(parseISO(post.date), 'MMMM, do uuu')}</p>
               <p className="text-xl tracking-wide font-sans text-white mb-12 w-90 lg:w-50ch">{post.content}</p>
               <Link href={`/blog/${post.slug}`}>
                 <a className="border border-green text-green px-5 py-3">Read More</a>

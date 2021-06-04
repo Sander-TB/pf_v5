@@ -33,8 +33,9 @@ export default function Nav() {
               smooth={true}
               offset={-70}
               duration={500}
+              onClick={() => setShowMenu(false)}
             >
-              <a onClick={() => setShowMenu(false)}>.me()</a>
+              .me()
             </Link>
           </li>
           <li className="list-none pb-7">
@@ -44,8 +45,9 @@ export default function Nav() {
               smooth={true}
               offset={-70}
               duration={500}
+              onClick={() => setShowMenu(false)}
             >
-              <a onClick={() => setShowMenu(false)}>.about()</a>
+              .about()
             </Link>
           </li>
           <li className="list-none pb-7">
@@ -55,8 +57,9 @@ export default function Nav() {
               smooth={true}
               offset={-70}
               duration={500}
+              onClick={() => setShowMenu(false)}
             >
-              <a onClick={() => setShowMenu(false)}>.portfolio()</a>
+              .portfolio()
             </Link>
           </li>
           <li className="list-none pb-7">
@@ -66,8 +69,9 @@ export default function Nav() {
               smooth={true}
               offset={-70}
               duration={500}
+              onClick={() => setShowMenu(false)}
             >
-              <a onClick={() => setShowMenu(false)}>.blog()</a>
+              .blog()
             </Link>
           </li>
           <li className="list-none">
@@ -77,8 +81,9 @@ export default function Nav() {
               smooth={true}
               offset={-70}
               duration={500}
+              onClick={() => setShowMenu(false)}
             >
-              <a onClick={() => setShowMenu(false)}>.contact()</a>
+              .contact()
             </Link>
           </li>
         </div>
@@ -109,8 +114,9 @@ export default function Nav() {
               smooth={true}
               offset={-70}
               duration={500}
+              className="cursor-pointer"
             >
-              <a className="cursor-pointer">.me()</a>
+              me()
             </Link>
           </li>
           <li className="list-none">
@@ -120,8 +126,9 @@ export default function Nav() {
               smooth={true}
               offset={-70}
               duration={700}
+              className="cursor-pointer"
             >
-              <a className="cursor-pointer">.about()</a>
+              .about()
             </Link>
           </li>
           <li className="list-none">
@@ -131,8 +138,9 @@ export default function Nav() {
               smooth={true}
               offset={-70}
               duration={600}
+              className="cursor-pointer"
             >
-              <a className="cursor-pointer">.portfolio()</a>
+              .portfolio()
             </Link>
           </li>
           <li className="list-none">
@@ -142,8 +150,9 @@ export default function Nav() {
               smooth={true}
               offset={-70}
               duration={500}
+              className="cursor-pointer"
             >
-              <a className="cursor-pointer">.blog()</a>
+              .blog()
             </Link>
           </li>
           <li className="list-none">
@@ -153,8 +162,9 @@ export default function Nav() {
               smooth={true}
               offset={-70}
               duration={400}
+              className="cursor-pointer"
             >
-              <a className="cursor-pointer">.contact()</a>
+              .contact()
             </Link>
           </li>
         </div>
