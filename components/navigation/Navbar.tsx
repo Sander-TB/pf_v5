@@ -1,6 +1,5 @@
 import { useState } from "react";
-import { useRouter } from "next/router";
-import Link from "next/link";
+import { Link } from "react-scroll"
 import { FaHamburger } from "react-icons/fa";
 import { GiHamburger } from "react-icons/gi";
 import Logo from "../../public/images/logo.svg"
@@ -16,33 +15,69 @@ export default function Nav() {
     burgerMenu = (
       <div className='fixed top-0 left-0 bg-darkblue w-4/5 h-full z-50 shadow'>
         <div className='flex justify-center z-50 pt-10'>
-          <Link href="/">
-            <img src={Logo} alt="logo" className="w-1/2" />
+          <Link
+            to="home"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            <img src={Logo} alt="logo" className="w-1/2 z-50" />
           </Link>
         </div>
         <div className='flex flex-col text-white mt-16 py-5 w-2/3 mx-auto h-auto z-50'>
           <li className="list-none pb-7">
-            <Link href="/">
+            <Link
+              to="home"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
               <a onClick={() => setShowMenu(false)}>.me()</a>
             </Link>
           </li>
           <li className="list-none pb-7">
-            <Link href="#about">
+            <Link
+              to="about"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
               <a onClick={() => setShowMenu(false)}>.about()</a>
             </Link>
           </li>
           <li className="list-none pb-7">
-            <Link href="#portfolio">
+            <Link
+              to="portfolio"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
               <a onClick={() => setShowMenu(false)}>.portfolio()</a>
             </Link>
           </li>
           <li className="list-none pb-7">
-            <Link href="#blog">
+            <Link
+              to="blog"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
               <a onClick={() => setShowMenu(false)}>.blog()</a>
             </Link>
           </li>
           <li className="list-none">
-            <Link href="#contact">
+            <Link
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
               <a onClick={() => setShowMenu(false)}>.contact()</a>
             </Link>
           </li>
@@ -68,28 +103,58 @@ export default function Nav() {
         </button>
         <div className='hidden md:flex w-3/4 justify-evenly z-50 mt-10 text-white'>
           <li className="list-none">
-            <Link href="/">
-              <a>.me()</a>
+            <Link
+              to="home"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              <a className="cursor-pointer">.me()</a>
             </Link>
           </li>
           <li className="list-none">
-            <Link href="#about">
-              <a>.about()</a>
+            <Link
+              to="about"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={700}
+            >
+              <a className="cursor-pointer">.about()</a>
             </Link>
           </li>
           <li className="list-none">
-            <Link href="#portfolio">
-              <a>.portfolio()</a>
+            <Link
+              to="portfolio"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={600}
+            >
+              <a className="cursor-pointer">.portfolio()</a>
             </Link>
           </li>
           <li className="list-none">
-            <Link href="#blog">
-              <a>.blog()</a>
+            <Link
+              to="blog"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              <a className="cursor-pointer">.blog()</a>
             </Link>
           </li>
           <li className="list-none">
-            <Link href="#contact">
-              <a>.contact()</a>
+            <Link
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={400}
+            >
+              <a className="cursor-pointer">.contact()</a>
             </Link>
           </li>
         </div>
