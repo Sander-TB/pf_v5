@@ -22,7 +22,7 @@ export default function ContactForm() {
       </div>
       <input type="text" placeholder="Subject" name="subject" className="p-3 mb-5 w-85 md:w-90 lg:w-82 bg-lightgray" />
       <textarea placeholder="Message" rows={10} name="message" className="w-85 md:w-90 lg:w-82 p-3 bg-lightgray" />
-      <button className="border border-green text-green px-5 py-3 w-85 md:w-90 mt-5"> Send Email</button>
+      <button className="border border-green text-green px-5 py-3 w-85 md:w-90 lg:w-82 mt-5"> Send Email</button>
     </form>
   )
 }
