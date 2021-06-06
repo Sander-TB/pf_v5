@@ -4,7 +4,7 @@ import { FaGithubSquare, FaInstagramSquare, FaLinkedin, FaTwitterSquare } from "
 
 export default function Contact() {
   return (
-    <div className="h-auto mb-20" id="contact">
+    <div className="h-auto mt-20 mb-20" id="contact">
       <h2 className="text-green text-5xl md:text-8xl mb-8 md:mb-16 font-bold">.contact(<span className="text-white">&#123;&#125;</span>)</h2>
       <div className="flex flex-col md:flex-row justify-evenly ml-8 md:ml-16">
         <div className="w-full md:w-1/2">

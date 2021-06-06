@@ -1,4 +1,3 @@
-import BgAnimation from "../animations/BgAnimation";
 import Navbar from "../navigation/Navbar";
 import NextHead from "../head/Head";
 
@@ -15,7 +14,6 @@ export default function Layout({ children }) {
 			<div className='bg-darkblue'>
 				<div className="animation-area h-auto overflow-hidden">
 					{children}
-					<BgAnimation />
 				</div>
 			</div>
 		</main>

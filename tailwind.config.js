@@ -19,6 +19,7 @@ module.exports = {
 		},
 		extend: {
 			spacing: {
+				"95vh": "95vh",
 				90: "90%",
 				95: "95%",
 				82: "82%",
@@ -26,6 +27,7 @@ module.exports = {
 				100: "100px",
 				15: "3.75rem",
 				"50ch": "50ch",
+				"60ch": "60ch",
 				"75ch": "75ch",
 			},
 			fontSize: {

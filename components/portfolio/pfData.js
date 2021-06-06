@@ -1,5 +1,6 @@
 export const pfData = [
 	{
+		id: 1,
 		image:
 			"https://res.cloudinary.com/dfhcrdprn/image/upload/v1622830690/portfolio/spaceX_fhwxhv.png",
 		title: "Space X Fan site",
@@ -8,6 +9,7 @@ export const pfData = [
 		link: "https://sanders-space-site.netlify.app/",
 	},
 	{
+		id: 2,
 		image:
 			"https://res.cloudinary.com/dfhcrdprn/image/upload/v1622999689/portfolio/pkmn_cxmykk.png",
 		title: "Pokédex project",
