@@ -33,8 +33,8 @@ export default function Nav() {
           </li>
           <li className="list-none pb-7">
             <Link
-              href="/about"
-            > <a onClick={() => setShowMenu(false)}>
+              href="/about">
+              <a onClick={() => setShowMenu(false)}>
                 .about()
               </a>
 
@@ -42,8 +42,7 @@ export default function Nav() {
           </li>
           <li className="list-none pb-7">
             <Link
-              href="/portfolio"
-            >
+              href="/portfolio">
               <a onClick={() => setShowMenu(false)}>
                 .portfolio()
               </a>
