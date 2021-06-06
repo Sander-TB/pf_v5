@@ -6,7 +6,7 @@ export default function Portfolio() {
 
   return (
     <div className="flex flex-col">
-      <h2 className="text-green text-5xl md:text-7xl lg:text-9xl mt-32 md:mt-48 mb-20 md:mb-44 font-bold">.portfolio(<span className="text-white">5</span>)</h2>
+      <h2 className="text-green text-5xl md:text-7xl lg:text-9xl mt-16 md:mt-48 mb-20 md:mb-44 font-bold">.portfolio(<span className="text-white">5</span>)</h2>
       <div className="flex flex-col">
         {
           pfData.map((project) => {
