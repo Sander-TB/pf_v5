@@ -1,6 +1,6 @@
 import Link from "next/link"
 import { blogPosts } from "../../lib/data"
-import { format, parseISO, add } from "date-fns"
+import { format, parseISO } from "date-fns"
 
 export default function Blog() {
 
@@ -8,6 +8,7 @@ export default function Blog() {
   //const url = "https://api.github.com/repos/sander-tb/posts"
   return (
     <div className="h-auto mb-10" id="blog">
+      <p className="bg-white text-center mt-5">This Page is Currently Under Construction</p>
       <h2 className="font-sans mt-10 text-9xl md:text-20xl ml-8 md:ml-20 font-bold text-black-t-90">Blog</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-20 relative mt-10 md:mt-0 md:-top-32 ml-10 md:ml-12">
         {
