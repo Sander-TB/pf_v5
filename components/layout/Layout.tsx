@@ -3,7 +3,7 @@ import NextHead from "../head/Head";
 
 export default function Layout({ children }) {
 	return (
-		<main className="px-10 md:px-10 lg:px-100 bg-darkblue">
+		<main className="px-5 md:px-10 lg:px-100 bg-darkblue">
 			<NextHead
 				title="Sander's Portfolio"
 				description='My personal portfolio as a Front End Developer'

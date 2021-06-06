@@ -8,8 +8,8 @@ export default function Blog() {
   //const url = "https://api.github.com/repos/sander-tb/posts"
   return (
     <div className="h-auto mb-10" id="blog">
-      <h2 className="font-sans text-9xl md:text-20xl ml-8 md:ml-20 font-medium text-black-t-90">Blog</h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-20 relative -top-20 md:-top-44 ml-10 md:ml-12">
+      <h2 className="font-sans mt-0 text-10xl md:text-20xl ml-8 md:ml-20 font-medium text-black-t-90">Blog</h2>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-20 relative -top-9 md:mt-0 md:-top-44 ml-10 md:ml-12">
         {
           blogPosts.map((post) => (
             <div key={post.slug}>

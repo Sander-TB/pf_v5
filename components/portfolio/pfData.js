@@ -3,7 +3,7 @@ export const pfData = [
 		id: 1,
 		image:
 			"https://res.cloudinary.com/dfhcrdprn/image/upload/v1622830690/portfolio/spaceX_fhwxhv.png",
-		title: "Space X Fan site",
+		title: "SpaceX Fan-site",
 		languages: "React | Sass",
 		slug: "A project for school where we were tasked to display some info about SpaceX from their API.",
 		link: "https://sanders-space-site.netlify.app/",
