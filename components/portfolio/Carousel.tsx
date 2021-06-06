@@ -37,11 +37,8 @@ export default function Carousel({ slides }) {
                   <p className="text-2xl lg:text-3xl text-orange mb-5">{slide.languages}</p>
                   <p className="text-md md:text-xl text-white mb-10 lg:mb-20">{slide.slug}</p>
                   <div className="flex flex-row w-full justify-items-center items-center">
-                    <Link href="#">
-                      <a className="w-1/2 lg:w-1/3 text-center text-xl text-green border border-green px-5 py-2 mb-20">Read more</a>
-                    </Link>
-                    <Link href="#">
-                      <a className="w-1/2 lg:w-1/3 text-center text-xl text-orange border border-orange px-5 py-2 mb-20 ml-5">Visit</a>
+                    <Link href={slide.link}>
+                      <a target="_blank" rel="noopener noreferrer" className="w-1/2 lg:w-1/3 text-center text-xl text-orange border border-orange px-5 py-2 mb-20 ml-5">Visit</a>
                     </Link>
                   </div>
                 </div>
