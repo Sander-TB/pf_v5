@@ -4,7 +4,7 @@ module.exports = {
 	theme: {
 		fontFamily: {
 			mono: ["hack", "ui-monospace"],
-			sans: ["Forma DJR Banner", "Open Sans"],
+			sans: ["Forma DJR Banner", "Open Sans", "sans-serif"],
 		},
 		colors: {
 			orange: "#fd8b25",
