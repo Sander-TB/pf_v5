@@ -31,6 +31,7 @@ module.exports = {
 				"75ch": "75ch",
 			},
 			fontSize: {
+				"4.5xl": "2.5rem",
 				"20xl": "20rem",
 				"10xl": "12rem",
 			},

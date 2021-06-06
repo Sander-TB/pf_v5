@@ -5,7 +5,7 @@ export default function AboutPage() {
     <div className=" h-auto mb-10" id="about">
       <div className="flex flex-col md:flex-row">
         <section className="w-full md:w-2/3">
-          <h2 className="text-green text-4xl md:text-8xl lg:text-9xl mt-32 md:mt-44 font-bold">.about(
+          <h2 className="text-green text-4.5xl md:text-8xl lg:text-9xl mt-32 md:mt-44 font-bold">.about(
             <span className="text-white">&#123;&#125;</span>)
           </h2>
           <p className="text-white text-lg md:text-xl w-90 md:w-50ch lg:w-60ch pl-8 md:pl-15 mt-10 leading-loose">I am a Front-End Developer living in Oslo, Norway. I love to learn new things and figuring out how things work, and I often tend to get lost in my work.</p>
