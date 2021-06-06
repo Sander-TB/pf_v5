@@ -18,7 +18,7 @@ export default function Nav() {
           <Link
             href="/"
           >
-            <a><img src={Logo} alt="logo" className="w-1/2 z-50" /></a>
+            <a><img src={Logo} alt="logo" className="w-3/4 z-50" /></a>
           </Link>
         </div>
         <div className='flex flex-col text-white mt-16 py-5 w-2/3 mx-auto h-auto z-50'>
