@@ -85,7 +85,7 @@ export default function Nav() {
           <li className="list-none">
             <Link
               href="/">
-              <a className="cursor-pointer">me()</a>
+              <a className="cursor-pointer">.me()</a>
             </Link>
           </li>
           <li className="list-none">
