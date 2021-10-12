@@ -1,6 +1,20 @@
 export const pfData = [
 	{
 		id: 1,
+		slug: "IGclone",
+		image:
+			"https://res.cloudinary.com/dfhcrdprn/image/upload/v1634053863/portfolio/Screenshot_2021-10-12_at_17.49.32_kysm2x.png",
+		title: "Instagram Clone",
+		languages: "MERNG",
+		blurb: "A picture sharing app where with CRUD capabilities",
+		link: "_blank",
+		goal: "Build a picture sharing app (Instagram Clone)",
+		notes:
+			"This is my first real experience using GraphQL. It is a work in progress, which is why the design is not finished yet. The app is not currently live, so the link does not work",
+		github: "https://github.com/Sander-TB/merng-social-media",
+	},
+	{
+		id: 2,
 		slug: "spaceX",
 		image:
 			"https://res.cloudinary.com/dfhcrdprn/image/upload/v1622830690/portfolio/spaceX_fhwxhv.png",
@@ -15,7 +29,7 @@ export const pfData = [
 		github: "https://github.com/Sander-TB/spacex_v3",
 	},
 	{
-		id: 2,
+		id: 3,
 		slug: "pokedex",
 		image:
 			"https://res.cloudinary.com/dfhcrdprn/image/upload/v1622999689/portfolio/pkmn_cxmykk.png",
@@ -30,7 +44,7 @@ export const pfData = [
 		github: "https://github.com/Sander-TB/next-pokedex",
 	},
 	{
-		id: 3,
+		id: 4,
 		slug: "calculator",
 		image:
 			"https://res.cloudinary.com/dfhcrdprn/image/upload/v1623026118/portfolio/calc_wxwhsq.png",
