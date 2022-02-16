@@ -7,7 +7,7 @@ export const pfData = [
 		title: "Instagram Clone",
 		languages: "MERNG",
 		blurb: "A picture sharing app where with CRUD capabilities",
-		link: "_blank",
+		link: "",
 		goal: "Build a picture sharing app (Instagram Clone)",
 		notes:
 			"This is my first real experience using GraphQL. It is a work in progress, which is why the design is not finished yet. The app is not currently live, so the link does not work",
@@ -15,18 +15,17 @@ export const pfData = [
 	},
 	{
 		id: 2,
-		slug: "spaceX",
+		slug: "tunez",
 		image:
-			"https://res.cloudinary.com/dfhcrdprn/image/upload/v1622830690/portfolio/spaceX_fhwxhv.png",
-		title: "SpaceX Microsite",
-		languages: "React | Sass",
-		blurb:
-			"A project for school where we were tasked to display some info about SpaceX from their API.",
-		link: "https://sanders-space-site.netlify.app/",
-		goal: "Build a microsite for SpaceX or NASA. This should focus on space technology. A microsite is a branded, self-contained site, usually on a its own domain, with a single purpose and a limited number of pages. The purpose can be promotional or editorial, and be may linked to a specific event or period of time. A microsite is usually built as an addition to an existing brand website.",
+			"https://res.cloudinary.com/dfhcrdprn/image/upload/v1645053072/portfolio/tunez_vxilo0.png",
+		title: "Tunez Music Events",
+		languages: "Next.js | Strapi CMS",
+		blurb: "An app to find music events near you.",
+		link: "https://tunez-frontend.vercel.app/",
+		goal: "Build an app with CRUD capabilities and authorization.",
 		notes:
-			"For the first go-around of this project, we were to make it using vanilla JS, CSS and HTML. I decided to try and remake it after I had learned the basics of React. I also made some adjustments to the original design, and this time I decided to use Sass for styling, as opposed to regular CSS.",
-		github: "https://github.com/Sander-TB/spacex_v3",
+			"This was a short project to practice some backend coding, (as well as deploying the backend). It is a WIP; it still needs a lot of polish and adjustments. I might add some more bells and whistles in the future ",
+		github: "https://github.com/Sander-TB/tunez-frontend",
 	},
 	{
 		id: 3,
